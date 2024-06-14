@@ -22,6 +22,9 @@ public class UIManagerScript : MonoBehaviour
     [SerializeField]
     private AudioSource _dingAudioSource;
 
+    [SerializeField]
+    private AudioSource _gameOverAudioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,7 +60,7 @@ public class UIManagerScript : MonoBehaviour
 
     public void SetGameOver()
     {
-
+        _gameOverAudioSource.Play();
         _gameOverPanel.SetActive(true);
     }
 }
