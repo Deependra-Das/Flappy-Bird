@@ -25,6 +25,7 @@ public class BirdScript : MonoBehaviour
     [SerializeField]
     private Sprite[] _wingSprites;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +55,7 @@ public class BirdScript : MonoBehaviour
         if (transform.position.y > upperBound || transform.position.y < lowerBound)
         {
             _isBirdAlive = false;
+            Destroy(this);
             _uiManagerhandler.SetGameOver();
         }
       

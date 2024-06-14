@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 79180f511d89441b9aa23ccae1992fe0
+guid: a0010a1a0c474473b81729eb770c485f
 labels:
 - Audio
 - Casual
 - Sound
 - SFX
 - Effect
-timeCreated: 1453238766
+timeCreated: 1453238768
 licenseType: Store
 AudioImporter:
   serializedVersion: 6
@@ -31,5 +31,5 @@ AssetOrigin:
   productId: 54116
   packageName: Casual Game Sounds
   packageVersion: 1.0
-  assetPath: Assets/CasualGameSounds/DM-CGS-28.wav
+  assetPath: Assets/CasualGameSounds/DM-CGS-11.wav
   uploadId: 98720
